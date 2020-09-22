@@ -1,0 +1,18 @@
+.Navbar {
+  .Navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    padding: 0.1rem;
+    .Navlink {
+      border: 1px black solid;
+      margin: 0.4rem;
+      padding: 0.4rem;
+      font-size: 110%;
+      background-color: azure;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+a.NoUnderline {
+    text-decoration: none;
+}
+
+.Todos {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 100%;
+    .Count {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin: 0.2rem;
+        padding: 0.4rem;
+        width: 200px;
+        border: 1px black solid;
+        background-color: rgb(120, 255, 255);
+        font-size: 110%;
+    }
+
+    .Task {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0.2rem 0 0.2rem 0.2rem;
+        padding: 0.2rem 0 0.2rem 0.2rem;
+
+        .TaskTitle {
+            font-size: 110%;
+            margin: 0.2rem 0 0.2rem 0.2rem;
+            padding: 0.2rem 0 0.2rem 0.2rem;
+        }
+
+        .TaskContent {
+            font-size: 90%;
+            margin: 0.2rem 0 0.2rem 0.2rem;
+            padding: 0.2rem 0 0.2rem 0.2rem;
+        }
+
+        .TaskCloseBtn {
+            border: 1px black solid;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            margin: 0.2rem;
+            padding: 0.4rem;
+            width: 200px;
+            background-color: rgb(180, 180, 180);
+            font-size: 90%;
+        }
+    }
+}
